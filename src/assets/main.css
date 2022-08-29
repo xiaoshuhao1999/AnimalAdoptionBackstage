@@ -1,0 +1,16 @@
+@import "./base.css";
+@import "./css/iconfont.css";
+::-webkit-scrollbar{display: none;}
+
+@font-face {
+  font-family: "DM";
+  src: url("./fonts/DIN-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "DB";
+  src: url("./fonts/DIN-Bold.otf") format("opentype");
+}
+b,i,div,p{font-style: normal;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+
+
+.l_form .el-input__inner{height: 42px;}
