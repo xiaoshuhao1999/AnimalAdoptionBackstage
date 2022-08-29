@@ -7,7 +7,7 @@
       </div>
       <el-button type="primary" @click="openEditPage({})">添加</el-button>
     </div>
-    <el-table v-loading="Data.loading" :data="Data.tableData" style="width: 100%;height: 80%;overflow-y: auto;">
+    <el-table v-loading="Data.loading" :data="Data.tableData" :style="{width: '100%',height: '80%','overflow-y': 'auto'}">
       <el-table-column fixed prop="id" label="ID" />
       <el-table-column prop="title" label="通知标题" />
       <el-table-column prop="content" label="通知内容" />
